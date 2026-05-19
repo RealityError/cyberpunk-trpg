@@ -1,0 +1,13 @@
+[
+  {"id": "thick_steel", "name": "厚钢板", "hp": 50, "description": "高强度金属掩体。", "gm_guidance": "适合作为重型门板、装甲墙或工业级金属屏障。", "automation": {"kind": "cover"}},
+  {"id": "thin_steel", "name": "薄钢板", "hp": 25, "description": "较薄的金属掩体。", "gm_guidance": "适合作为金属隔板、车体薄弱部位或临时金属遮挡。", "automation": {"kind": "cover"}},
+  {"id": "thick_stone", "name": "厚石材", "hp": 40, "description": "厚重石质结构。", "gm_guidance": "适合作为承重石墙或大型石质障碍。", "automation": {"kind": "cover"}},
+  {"id": "thin_stone", "name": "薄石材", "hp": 20, "description": "较薄的石质结构。", "gm_guidance": "适合作为装饰石墙、石质隔断或较脆弱结构。", "automation": {"kind": "cover"}},
+  {"id": "thick_bulletproof_glass", "name": "厚防弹玻璃", "hp": 30, "description": "厚防弹透明材料。", "gm_guidance": "适合作为银行、企业设施或安保窗口。", "automation": {"kind": "cover"}},
+  {"id": "thin_bulletproof_glass", "name": "薄防弹玻璃", "hp": 15, "description": "较薄防弹透明材料。", "gm_guidance": "适合作为车辆防弹窗或轻型安保玻璃。", "automation": {"kind": "cover"}},
+  {"id": "thick_concrete", "name": "厚混凝土", "hp": 25, "description": "厚混凝土结构。", "gm_guidance": "适合作为墙体、柱体或大型街道障碍。", "automation": {"kind": "cover"}},
+  {"id": "thin_concrete", "name": "薄混凝土", "hp": 10, "description": "较薄混凝土结构。", "gm_guidance": "适合作为低矮隔断或劣质墙体。", "automation": {"kind": "cover"}},
+  {"id": "thick_wood", "name": "厚木材", "hp": 20, "description": "厚木质掩体。", "gm_guidance": "适合作为厚木门、木箱堆或粗重家具。", "automation": {"kind": "cover"}},
+  {"id": "thin_wood", "name": "薄木材", "hp": 5, "description": "薄木质掩体。", "gm_guidance": "适合作为薄门、轻木板或普通小家具。", "automation": {"kind": "cover"}},
+  {"id": "thick_plaster_foam_plastic", "name": "厚石膏/泡沫/塑料", "hp": 15, "description": "较厚但非坚固材料。", "gm_guidance": "适合作为廉价内墙、厚塑料设施或临时建筑材料。", "automation": {"kind": "cover"}}
+]

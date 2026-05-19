@@ -1,0 +1,61 @@
+{
+  "37b81ee08c064567b6bf8cec8858f69e": {
+    "name": "演示角色-边缘行者",
+    "role": "独狼",
+    "stats": {
+      "INT": 6,
+      "REF": 8,
+      "DEX": 7,
+      "TECH": 5,
+      "COOL": 7,
+      "WILL": 6,
+      "LUCK": 5,
+      "MOVE": 6,
+      "BODY": 6,
+      "EMP": 5
+    },
+    "skills": {
+      "手枪": 6,
+      "闪避": 5,
+      "觉察": 4,
+      "潜行": 4,
+      "说服": 3
+    },
+    "max_hp": 40,
+    "current_hp": 37,
+    "armor_sp": 10,
+    "weapons": [
+      {
+        "name": "重型手枪",
+        "damage": "3d6",
+        "notes": "可靠但声音很大"
+      }
+    ],
+    "inventory": [
+      {
+        "name": "急救包",
+        "quantity": 1,
+        "notes": ""
+      },
+      {
+        "name": "一次性手机",
+        "quantity": 2,
+        "notes": ""
+      }
+    ],
+    "eurobucks": 250,
+    "conditions": [
+      {
+        "name": "被压制",
+        "description": "敌方火力迫使你暂时贴住掩体。",
+        "source": "后巷交火",
+        "modifiers": {}
+      }
+    ],
+    "death_save_penalty": 0,
+    "humanity": 50,
+    "luck_current": 5,
+    "notes": "用于查看玩家端效果的演示角色。",
+    "id": "37b81ee08c064567b6bf8cec8858f69e"
+  }
+}

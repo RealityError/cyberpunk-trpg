@@ -7,8 +7,9 @@ __pycache__/
 .mypy_cache/
 .env
 .env.*
-data/
 logs/
+pytest-cache-files-*/
 docs/*.pdf
+docs/extracted/
 *.sqlite3
 *.db

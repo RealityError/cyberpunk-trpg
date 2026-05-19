@@ -1,0 +1,204 @@
+{
+  "3a97abd9f88f4600b593036a8c61fafa": {
+    "name": "演示回放：雨夜后巷",
+    "scene": "后巷深处的蓝色招牌只剩一半还亮着。目标躲进装卸区，雨水顺着消防梯往下流。一个保镖倒在货箱旁，另一个还在黑暗里移动。",
+    "character_ids": [
+      "37b81ee08c064567b6bf8cec8858f69e"
+    ],
+    "gm_notes": "这是用于查看玩家端效果的预置演示回放。",
+    "state_summary": "玩家已潜入后巷，发现目标和一名保镖，当前处于短暂交火后的压制状态。",
+    "metadata": {},
+    "combat_state": {
+      "active": true,
+      "round": 2,
+      "current_turn_index": 0,
+      "participants": [
+        {
+          "character_id": "37b81ee08c064567b6bf8cec8858f69e",
+          "name": "演示角色-边缘行者",
+          "initiative": 17,
+          "has_acted": false,
+          "notes": "玩家"
+        }
+      ],
+      "notes": "演示：只展示玩家可见的当前回合。"
+    },
+    "id": "3a97abd9f88f4600b593036a8c61fafa",
+    "events": [
+      {
+        "type": "GM回应",
+        "title": "开场",
+        "content": "雨水敲在你的夹克肩头。后巷入口只有一盏忽明忽暗的灯，垃圾箱后面传来短促的金属碰撞声。匿名消息还停在你的视网膜投影上：别让他离开。",
+        "character_ids": [
+          "37b81ee08c064567b6bf8cec8858f69e"
+        ],
+        "metadata": {},
+        "id": "55da83aa4a374ecb98f4f42d4adb6d4e",
+        "created_at": "2026-05-19T09:40:20.352710+00:00"
+      },
+      {
+        "type": "玩家",
+        "title": "玩家行动",
+        "content": "我压低身子靠近垃圾箱，先观察后巷里有没有埋伏。",
+        "character_ids": [
+          "37b81ee08c064567b6bf8cec8858f69e"
+        ],
+        "metadata": {},
+        "id": "a74988f9ab46491eacec884083da2a10",
+        "created_at": "2026-05-19T09:40:20.358766+00:00"
+      },
+      {
+        "type": "检定",
+        "title": "观察后巷",
+        "content": "演示角色-边缘行者 尝试：观察后巷入口和垃圾箱附近是否有埋伏。。使用 智力+觉察 检定，结果 17，DV 13，成功。",
+        "character_ids": [
+          "37b81ee08c064567b6bf8cec8858f69e"
+        ],
+        "metadata": {
+          "intent": "观察后巷入口和垃圾箱附近是否有埋伏。",
+          "roll": {
+            "label": "智力+觉察",
+            "base_roll": 7,
+            "extra_roll": null,
+            "critical": null,
+            "stat": 6,
+            "skill": 4,
+            "modifier": 0,
+            "total": 17,
+            "dv": 13,
+            "success": true,
+            "character_id": "37b81ee08c064567b6bf8cec8858f69e",
+            "character_name": "演示角色-边缘行者",
+            "stat_name": "智力",
+            "skill_name": "觉察"
+          }
+        },
+        "id": "09481cc2c7bc46eba9204d02d940971f",
+        "created_at": "2026-05-19T09:40:20.366138+00:00"
+      },
+      {
+        "type": "GM回应",
+        "title": "发现动静",
+        "content": "你看见垃圾箱后的积水泛起一圈波纹。不是雨点，是有人刚刚挪动了脚。目标在装卸门旁低声骂了一句，另一个影子抬起了枪口。",
+        "character_ids": [
+          "37b81ee08c064567b6bf8cec8858f69e"
+        ],
+        "metadata": {},
+        "id": "05b05369419c4a799f588e62541f2424",
+        "created_at": "2026-05-19T09:40:20.370019+00:00"
+      },
+      {
+        "type": "玩家",
+        "title": "玩家行动",
+        "content": "我抢先开火，瞄准那个抬枪的影子。",
+        "character_ids": [
+          "37b81ee08c064567b6bf8cec8858f69e"
+        ],
+        "metadata": {},
+        "id": "d9622eff0c294a5db751b9231a0e24c2",
+        "created_at": "2026-05-19T09:40:20.375060+00:00"
+      },
+      {
+        "type": "检定",
+        "title": "手枪射击",
+        "content": "演示角色-边缘行者 尝试：在雨夜后巷中抢先射击武装保镖。。使用 反应+手枪 检定，结果 19，DV 15，成功。",
+        "character_ids": [
+          "37b81ee08c064567b6bf8cec8858f69e"
+        ],
+        "metadata": {
+          "intent": "在雨夜后巷中抢先射击武装保镖。",
+          "roll": {
+            "label": "反应+手枪",
+            "base_roll": 5,
+            "extra_roll": null,
+            "critical": null,
+            "stat": 8,
+            "skill": 6,
+            "modifier": 0,
+            "total": 19,
+            "dv": 15,
+            "success": true,
+            "character_id": "37b81ee08c064567b6bf8cec8858f69e",
+            "character_name": "演示角色-边缘行者",
+            "stat_name": "反应",
+            "skill_name": "手枪"
+          }
+        },
+        "id": "576170af86e74a299921ad4bc923f3ad",
+        "created_at": "2026-05-19T09:40:20.383743+00:00"
+      },
+      {
+        "type": "伤害",
+        "title": "流弹擦伤",
+        "content": "演示角色-边缘行者 受到 14 点伤害，当前 HP 37/40，护甲 SP 10。",
+        "character_ids": [
+          "37b81ee08c064567b6bf8cec8858f69e"
+        ],
+        "metadata": {
+          "amount": 14,
+          "ignore_armor": false,
+          "ablate_armor": true,
+          "minimum_hp": 0,
+          "source": "流弹擦伤",
+          "notes": "保镖反击时子弹擦过护甲边缘。"
+        },
+        "id": "185ae5c5bd484e40a14e1a32ead1c031",
+        "created_at": "2026-05-19T09:40:20.396897+00:00"
+      },
+      {
+        "type": "状态",
+        "title": "获得状态：被压制",
+        "content": "演示角色-边缘行者 获得状态：被压制。",
+        "character_ids": [
+          "37b81ee08c064567b6bf8cec8858f69e"
+        ],
+        "metadata": {
+          "condition": {
+            "name": "被压制",
+            "description": "敌方火力迫使你暂时贴住掩体。",
+            "source": "后巷交火",
+            "modifiers": {}
+          }
+        },
+        "id": "8ee9c95eb6f74ea2939bc51b80b7e512",
+        "created_at": "2026-05-19T09:40:20.407789+00:00"
+      },
+      {
+        "type": "GM回应",
+        "title": "短暂压制",
+        "content": "你的第一枪打碎了保镖身后的警示灯，火花在雨里炸开。他的回击擦过你的护甲，冲击力把你压回垃圾箱后。目标趁乱钻进装卸门，门还没完全合上。",
+        "character_ids": [
+          "37b81ee08c064567b6bf8cec8858f69e"
+        ],
+        "metadata": {},
+        "id": "e59db5ad41b64af8aecf62fc32bf73b7",
+        "created_at": "2026-05-19T09:40:20.413167+00:00"
+      },
+      {
+        "type": "战斗",
+        "title": "战斗开始",
+        "content": "战斗开始。当前回合：演示角色-边缘行者。",
+        "character_ids": [
+          "37b81ee08c064567b6bf8cec8858f69e"
+        ],
+        "metadata": {
+          "participants": [
+            {
+              "character_id": "37b81ee08c064567b6bf8cec8858f69e",
+              "initiative": 17,
+              "name": "演示角色-边缘行者",
+              "notes": "玩家"
+            }
+          ],
+          "round": 2,
+          "current_turn_index": 0,
+          "notes": "演示：只展示玩家可见的当前回合。"
+        },
+        "id": "c32b91fa25dd4f2cb175bdc9e39692d0",
+        "created_at": "2026-05-19T09:40:20.419260+00:00"
+      }
+    ],
+    "created_at": "2026-05-19T09:40:20.347034+00:00",
+    "updated_at": "2026-05-19T09:40:20.419347+00:00"
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "everyday",
+    "name": "日常",
+    "dv": 13,
+    "description": "大多数人无需专门训练也可能完成的事情。",
+    "gm_guidance": "用于有失败可能，但风险和专业要求都较低的行动。",
+    "automation": {"kind": "dv"}
+  },
+  {
+    "id": "difficult",
+    "name": "困难",
+    "dv": 15,
+    "description": "未受训练或缺少天赋时很难完成的事情。",
+    "gm_guidance": "用于常规危险场景或一般专业挑战。",
+    "automation": {"kind": "dv"}
+  },
+  {
+    "id": "professional",
+    "name": "专业",
+    "dv": 17,
+    "description": "需要训练和熟练度才能稳定完成的事情。",
+    "gm_guidance": "用于任务关键节点、专业安保、复杂技术或高压社交。",
+    "automation": {"kind": "dv"}
+  },
+  {
+    "id": "heroic",
+    "name": "英勇",
+    "dv": 21,
+    "description": "只有精英才可能完成的高难度操作。",
+    "gm_guidance": "用于极端压力、危险环境或明显超出普通水平的行动。",
+    "automation": {"kind": "dv"}
+  },
+  {
+    "id": "incredible",
+    "name": "难以置信",
+    "dv": 24,
+    "description": "行业顶尖水平的壮举。",
+    "gm_guidance": "用于近乎传奇级的行动，失败后果通常应当明显。",
+    "automation": {"kind": "dv"}
+  }
+]

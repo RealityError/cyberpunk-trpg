@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>单人跑团</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <header class="app-bar">
+      <div class="brand">
+        <p class="eyebrow">单人游玩</p>
+        <h1>赛博朋克边缘故事</h1>
+      </div>
+      <div class="save-controls">
+        <select id="sessionSelect" aria-label="选择存档"></select>
+        <button id="refreshButton" type="button">刷新</button>
+        <button id="demoButton" type="button">生成演示</button>
+      </div>
+    </header>
+
+    <main class="player-layout">
+      <section class="play-area" aria-label="游戏对话">
+        <div class="scene-strip">
+          <div>
+            <p class="eyebrow">当前场景</p>
+            <div id="sceneText" class="scene-text muted">暂无存档。点击“新游戏”开始一个单人演示局。</div>
+          </div>
+          <span id="agentStatus" class="status-pill">就绪</span>
+        </div>
+
+        <div id="messageList" class="chat-log" aria-live="polite"></div>
+
+        <form id="chatForm" class="command-bar">
+          <textarea id="playerMessage" rows="3" placeholder="你想做什么？例如：我压低身子观察后巷入口。"></textarea>
+          <button id="sendButton" type="submit">行动</button>
+        </form>
+      </section>
+
+      <aside class="player-sidebar" aria-label="玩家状态">
+        <section class="panel">
+          <div class="panel-header">
+            <p class="eyebrow">玩家可见</p>
+            <h2>角色状态</h2>
+          </div>
+          <div id="characterGrid" class="character-grid empty">暂无角色。</div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <p class="eyebrow">掷骰</p>
+            <h2>最近判定</h2>
+          </div>
+          <div id="rollList" class="roll-list empty">暂无判定。</div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <p class="eyebrow">局势</p>
+            <h2>战斗状态</h2>
+          </div>
+          <div id="combatBox" class="combat-box muted">未进入战斗。</div>
+        </section>
+      </aside>
+    </main>
+
+    <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

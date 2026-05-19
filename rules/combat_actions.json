@@ -1,0 +1,14 @@
+[
+  {"id": "move", "name": "移动", "description": "使用移动动作移动，普通距离为移动属性 x 2 米，网格地图中等于移动属性格数。", "gm_guidance": "允许斜向移动；困难移动消耗翻倍；倒地角色必须先起身。", "automation": {"kind": "combat_action", "action_type": "move"}},
+  {"id": "attack", "name": "攻击", "description": "进行一次近战或远程攻击。", "gm_guidance": "攻击次数通常由武器 ROF 决定；远程攻击查距离 DV，近战通常对抗闪避。", "automation": {"kind": "combat_action", "action_type": "standard"}},
+  {"id": "choke", "name": "锁喉", "description": "对已擒抱目标造成等同于体魄的直接 HP 伤害。", "gm_guidance": "需要当前是擒抱中的攻击方；伤害无视护甲；连续 3 回合可使目标昏迷。", "automation": {"kind": "combat_action", "action_type": "standard", "requires": "grapple"}},
+  {"id": "stand_up", "name": "起身", "description": "从倒地状态恢复。", "gm_guidance": "倒地状态下，角色不能使用移动动作，需先起身。", "automation": {"kind": "combat_action", "action_type": "standard"}},
+  {"id": "grapple", "name": "擒抱", "description": "控制目标、夺取物品或挣脱擒抱。", "gm_guidance": "需要一只空手；双方以敏捷 + 徒手搏斗对抗；扭打中双方动作 -2。", "automation": {"kind": "combat_action", "action_type": "standard", "opposed_skill_id": "brawling"}},
+  {"id": "hold_action", "name": "延迟动作", "description": "指定触发条件，将动作延迟到后续时机执行。", "gm_guidance": "玩家必须说明触发事件、动作内容和目标。", "automation": {"kind": "combat_action", "action_type": "standard"}},
+  {"id": "reload", "name": "装填", "description": "完全装填或更换武器弹匣。", "gm_guidance": "用于恢复武器弹药，是否需要取决于武器和当前弹药状态。", "automation": {"kind": "combat_action", "action_type": "standard"}},
+  {"id": "run", "name": "奔跑", "description": "额外执行一个移动动作。", "gm_guidance": "前提是角色本回合已经执行过一次移动动作。", "automation": {"kind": "combat_action", "action_type": "standard"}},
+  {"id": "stabilize", "name": "稳定伤势", "description": "稳定目标伤势，启动自然恢复或救回濒死目标。", "gm_guidance": "使用技术 + 急救或医疗，DV 取决于伤势状态。", "automation": {"kind": "combat_action", "action_type": "standard", "skill_ids": ["first_aid", "paramedic"]}},
+  {"id": "throw", "name": "投掷", "description": "摔投被擒抱目标或投掷手持物。", "gm_guidance": "对擒抱目标投掷会造成体魄伤害、无视护甲、结束擒抱并使目标倒地。", "automation": {"kind": "combat_action", "action_type": "standard", "requires": "grapple"}},
+  {"id": "use_skill", "name": "使用技能", "description": "用一个动作完成快速技能任务。", "gm_guidance": "耗时较长的任务需要跨多个回合推进，完成所需时间后再检定。", "automation": {"kind": "combat_action", "action_type": "standard"}},
+  {"id": "use_item", "name": "使用物品", "description": "操作不需要技能检定的物品。", "gm_guidance": "拔出易取武器或丢下手持武器通常不需要动作；收回武器需要动作。", "automation": {"kind": "combat_action", "action_type": "standard"}}
+]

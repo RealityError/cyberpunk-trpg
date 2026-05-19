@@ -1,0 +1,46 @@
+[
+  {
+    "weapon_type": "手枪",
+    "ranges": [
+      {"min_m": 0, "max_m": 6, "dv": 13},
+      {"min_m": 7, "max_m": 12, "dv": 15},
+      {"min_m": 13, "max_m": 25, "dv": 20},
+      {"min_m": 26, "max_m": 50, "dv": 25},
+      {"min_m": 51, "max_m": 100, "dv": 30},
+      {"min_m": 101, "max_m": 200, "dv": 30}
+    ],
+    "description": "手持远程武器的距离难度。",
+    "gm_guidance": "近距离较容易命中，距离拉长后迅速变难。",
+    "automation": {"kind": "ranged_dv", "skill_id": "handgun"}
+  },
+  {
+    "weapon_type": "霰弹枪",
+    "ranges": [
+      {"min_m": 0, "max_m": 6, "dv": 13},
+      {"min_m": 7, "max_m": 12, "dv": 15},
+      {"min_m": 13, "max_m": 25, "dv": 20},
+      {"min_m": 26, "max_m": 50, "dv": 25},
+      {"min_m": 51, "max_m": 100, "dv": 30},
+      {"min_m": 101, "max_m": 200, "dv": 35}
+    ],
+    "description": "霰弹枪的距离难度。",
+    "gm_guidance": "适合近中距离，远距离命中难度高。",
+    "automation": {"kind": "ranged_dv", "skill_id": "shoulder_arms"}
+  },
+  {
+    "weapon_type": "突击步枪",
+    "ranges": [
+      {"min_m": 0, "max_m": 6, "dv": 17},
+      {"min_m": 7, "max_m": 12, "dv": 16},
+      {"min_m": 13, "max_m": 25, "dv": 15},
+      {"min_m": 26, "max_m": 50, "dv": 13},
+      {"min_m": 51, "max_m": 100, "dv": 15},
+      {"min_m": 101, "max_m": 200, "dv": 20},
+      {"min_m": 201, "max_m": 400, "dv": 25},
+      {"min_m": 401, "max_m": 800, "dv": 30}
+    ],
+    "description": "突击步枪的距离难度。",
+    "gm_guidance": "中距离表现最好，贴脸和超远距离都更难。",
+    "automation": {"kind": "ranged_dv", "skill_id": "shoulder_arms"}
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "int",
+    "name": "智力",
+    "aliases": ["INT", "智力"],
+    "description": "知识、分析、学习、调查和战术判断相关的基础能力。",
+    "gm_guidance": "当角色依靠知识、推理、资料检索或计划能力解决问题时优先考虑。",
+    "automation": {"kind": "stat"}
+  },
+  {
+    "id": "ref",
+    "name": "反应",
+    "aliases": ["REF", "反应"],
+    "description": "快速反应、射击、驾驶和先攻相关的基础能力。",
+    "gm_guidance": "当行动依赖快速瞄准、即时反应或操控载具时使用。",
+    "automation": {"kind": "stat"}
+  },
+  {
+    "id": "dex",
+    "name": "敏捷",
+    "aliases": ["DEX", "敏捷"],
+    "description": "身体协调、近战、闪避、潜行和运动相关的基础能力。",
+    "gm_guidance": "当行动依赖身体控制、灵活移动或近身动作时使用。",
+    "automation": {"kind": "stat"}
+  },
+  {
+    "id": "tech",
+    "name": "技术",
+    "aliases": ["TECH", "技术"],
+    "description": "修理、医疗、电子设备、撬锁和制作相关的基础能力。",
+    "gm_guidance": "当角色处理设备、伤势、锁具或复杂工具时使用。",
+    "automation": {"kind": "stat"}
+  },
+  {
+    "id": "cool",
+    "name": "酷",
+    "aliases": ["COOL", "酷"],
+    "description": "压力下的气场、社交压制、谈判和街头处事能力。",
+    "gm_guidance": "当角色需要保持镇定、唬住对手、谈判或在街头混局面时使用。",
+    "automation": {"kind": "stat"}
+  },
+  {
+    "id": "will",
+    "name": "意志",
+    "aliases": ["WILL", "意志"],
+    "description": "精神韧性、专注和抵抗痛苦的基础能力。",
+    "gm_guidance": "当角色承受压力、疼痛、拷问或需要集中精神时使用。",
+    "automation": {"kind": "stat"}
+  },
+  {
+    "id": "luck",
+    "name": "幸运",
+    "aliases": ["LUCK", "幸运"],
+    "description": "可消耗以提高检定结果的资源型属性。",
+    "gm_guidance": "允许玩家在掷骰前投入幸运点，制造关键时刻的成功机会。",
+    "automation": {"kind": "stat", "resource": true}
+  },
+  {
+    "id": "move",
+    "name": "移动",
+    "aliases": ["MOVE", "移动"],
+    "description": "角色在战斗回合中移动距离的基础能力。",
+    "gm_guidance": "用于计算普通移动、困难移动和濒死状态下的移动惩罚。",
+    "automation": {"kind": "stat", "combat_use": "movement"}
+  },
+  {
+    "id": "body",
+    "name": "体魄",
+    "aliases": ["BODY", "体魄"],
+    "description": "身体强度、锁喉/投掷伤害和死亡豁免相关的基础能力。",
+    "gm_guidance": "当角色承受濒死风险、用身体力量造成直接伤害或体现强壮程度时使用。",
+    "automation": {"kind": "stat", "combat_use": "death_save"}
+  },
+  {
+    "id": "emp",
+    "name": "共情",
+    "aliases": ["EMP", "共情"],
+    "description": "理解他人、社交观察和沟通相关的基础能力。",
+    "gm_guidance": "当角色判断情绪、读懂他人或用交流获取信息时使用。",
+    "automation": {"kind": "stat"}
+  }
+]
